@@ -1,0 +1,11 @@
+.form
+{
+    border-left-color: red;
+    border-left-width: 5px;
+}
+
+.formclear
+{
+    border-left-color: green;
+    border-left-width: 5px;
+}

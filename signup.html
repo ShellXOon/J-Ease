@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create a new account</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="errors.css">
+</head>
+<body >
+<script type="application/javascript" src="signup.js"></script>
+<div class="menubar">
+    <ul>
+        <li>About Us</li>
+        <li>Contact</li>
+        <li>Home</li>
+    </ul>
+</div>
+<h2 class="heading">J-Dial</h2>
+<form action="signup.php" method="POST" onsubmit="return checkform()" name="mForm">
+    <div class="formheading">
+        <h3>Create a new account</h3>
+    </div>
+    <input class="form" type="text" name="fname" placeholder="Username"><br>
+    <input class="form" type="password" name="fpass" placeholder="Password"><br>
+    <input class="form" type="password" name="fpass2" placeholder="Retype Password"><br>
+    <input class="form" type="text" name="email" placeholder="Email ID"><br>
+    <input type="submit" value="Submit" id="createaccount" onclick="return cehckform()">
+
+</form>
+</body>
+</html>

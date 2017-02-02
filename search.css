@@ -1,0 +1,51 @@
+body{
+    margin-left: 0;
+    margin-top: 0;
+}
+
+form
+{
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20px;
+
+}
+
+.infowindow
+{
+
+}
+
+#coloredbody{
+    height: 70px;
+    background-color: brown;
+    padding-left: 500px;
+
+}
+
+#suggestions
+{
+    margin-left: 175px;
+}
+#text
+{
+    color: white;
+    font-size: 20px;
+}
+#map {
+    height: 90%;
+}
+
+#img_result
+{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+

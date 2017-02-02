@@ -1,0 +1,419 @@
+body{
+    background-image: url("images/beck.jpg");
+    background-size: 100% auto;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+	height:35px;
+	width: 125px;
+	margin-left:20px;
+	margin-top: 15px;
+}
+
+.user_part{
+	position: absolute;
+	top:1px;
+	right: 1px;
+	background-color: rgba(0,0,0,0.7);
+	width: 200px;
+	height: 58px;
+}
+
+
+#user_pic{
+	height: 30px;
+	width: 30px;
+	padding-left:150px;
+	padding-top: 17px;
+	
+}
+
+.user_log{
+	position: absolute;
+	padding-left: 10px;
+	top: 5px;
+	padding-bottom:20px;
+	color: White;
+	font-family:Verdana;
+	 	
+}
+
+.top_head
+{
+	background-color:rgba(0,0,0,0.5);
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px dotted #ff6633;
+}
+
+form{
+
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 90px;;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+    max-height: 400px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+}
+/*.menubar
+{
+	
+    margin-right: 20px;
+	margin-top: 0px;
+	
+}*/
+
+/*.menubar ul li
+{
+    
+    padding:5px;
+    color: white;
+    text-align: center;
+    list-style: none;
+    display: inline;
+	font-weight: bold;
+    height: 30px;
+}*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ 
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu {
+  width: auto;
+  border-bottom: 3px solid #ff6633;
+  font-family: Raleway, sans-serif;
+  line-height: 1;
+}
+#cssmenu ul {
+  background: #0a0a0a /*thda jaada kala*/;
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {	
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-right > ul > li > a {
+  margin-right: 0;
+  margin-left: -4px;
+}
+#cssmenu > ul > li > a {
+  z-index: 2;
+  padding: 18px 25px 12px 25px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #d6d6d6 /*text thk kala*/;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-right: -4px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover {
+  color: #141414 /*low kala*/;
+  font-size: 1.2em;
+}
+#cssmenu > ul > li > a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  content: "";
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: perspective(5px) rotateX(2deg);
+  -webkit-transform-origin: bottom;
+  -moz-transform: perspective(5px) rotateX(2deg);
+  -moz-transform-origin: bottom;
+  transform: perspective(5px) rotateX(2deg);
+  transform-origin: bottom;
+}
+#cssmenu > ul > li.active > a:after,
+#cssmenu > ul > li:hover > a:after,
+#cssmenu > ul > li > a:hover:after {
+  background: #ff6633 /*starangi*/;
+}
+
+.form
+{
+    height: 25px;
+    font-size: medium;
+    margin-bottom: 15px;
+    outline: none;
+    width:300px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.formheading
+{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom-color: red;
+    border-bottom-style:solid;
+    padding-top: 2px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+
+
+input[type='submit']:hover
+{
+    background-color: deepskyblue;
+}
+input[type='button']:hover
+{
+    background-color: red;
+}
+
+input[type='submit'], input[type='button']
+{
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    width: 305px;
+    border-color: white;
+    text-align: center;
+    height:auto;
+    font-size: 16px;
+    padding:8px;
+}
+
+#newaccount
+{
+    margin-top:30px;
+    text-align: left;
+    margin-left: 25px;
+    font-size: 15px;
+
+}
+a
+{
+    color: white;
+}
+
+/* Contact css started*/
+
+#dp1{
+	position: absolute;
+	top: 200px;
+	left: 70px;
+	height: 300px;
+	width:300px;
+	
+}
+
+.dp{
+	border: 3px solid #DA81F5;
+	border-radius: 100%;
+	height: 250px;
+	width:250px;
+	padding: 2px;
+	
+}
+/*#line{
+	color:#DA81F5;
+	height: 3px;
+	position: absolute;
+	top: 350px;
+	left: 370px;
+	
+}*/
+
+/*.NAME{
+	position:absolute;
+	top:220px;
+	left: 600px;
+	
+	font-family: Verdana;
+	color: red;
+	size: 1.5em;
+	font-weight: bold
+	
+	
+}
+
+.intro_yug{
+	background-color: rgba(196,196,196,0.5);
+	margin-top: 350px;
+	margin-left:400px;
+	margin-right: 100px;
+	height: 350px;
+	width:700px;
+	
+}*/
+
+#yug.jumbotron{
+	position: absolute;
+	top: 200px;
+	left: 390px;
+	right: 100px;
+}
+
+.NAME{
+	border-bottom: 1px #1C1C1C solid;
+	font-weight: bold;
+}
+
+#mail_yg{
+	float: right;
+	position:absolute;
+	top:240px;
+	right: 100px;
+	margin-right:30px;
+	
+	/*height:20px;
+	width:90px;*/
+	
+}
+
+.introc{
+	margin-top:20px;
+	
+}
+
+/* Naman ka part*/
+
+#dp2{
+	float: right;
+	margin-top: 500px;
+	margin-right: 70px;
+	height: 300px;
+	width:300px;
+	
+}
+
+#mail_nm{
+	float: right;
+	position:absolute;
+	top:250px;
+	right: 200px;
+	margin-left:30px;
+	
+	/*height:20px;
+	width:90px;*/
+	
+}
+
+#naman.jumbotron{
+	position: absolute;
+	top: 570px;
+	left: 100px;
+	right: 390px;
+}
+
+/*yash ka part*/
+
+#dp3{
+	position: absolute;
+	top: 970px;
+	left: 70px;
+	height: 300px;
+	width:300px;
+	
+}
+
+#yash.jumbotron{
+	position: absolute;
+	margin-top: 40px;
+	left: 390px;
+	right: 100px;
+}
+
+#mail_ysh{
+	float: right;
+	position:absolute;
+	top:250px;
+	right: 100px;
+	margin-right:30px;
+	
+	/*height:20px;
+	width:90px;*/
+	
+}
+
+/*kanav kansal*/
+
+#dp4{
+	float: right;
+	margin-top: 450px;
+	margin-right: 70px;
+	height: 300px;
+	width:300px;
+	
+}
+
+#mail_kk{
+	float: right;
+	position:absolute;
+	top:250px;
+	right: 200px;
+	margin-left:30px;
+	
+	/*height:20px;
+	width:90px;*/
+	
+}
+
+#kanav.jumbotron{
+	position: absolute;
+	margin-top: 410px;
+	left: 100px;
+	right: 390px;
+}
